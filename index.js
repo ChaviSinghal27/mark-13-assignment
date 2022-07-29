@@ -155,7 +155,7 @@ if(bdayStr !== '') {
     }else {
         var [ctr, nextDate] = getNextPalindromeDate(date);
         
-        outputEl.innerText ="next palindrome date is " + nextDate.day + "-" + nextDate.month + "-" + nextDate.year  + "you missed it by" + ctr + " days"
+        outputEl.innerText =`next palindrome date is  ${nextDate.day}-${nextDate.month}-${nextDate.year} you missed it by ${ctr}  days`
     }
     
 }
